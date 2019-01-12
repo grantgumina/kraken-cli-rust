@@ -1,0 +1,26 @@
+[package]
+name = "kraken"
+version = "0.1.1"
+authors = ["Grant Gumina"]
+
+[dependencies]
+daemonize = { git = "https://github.com/grantgumina/daemonize.git" }
+indicatif = "0.9.0"
+clap = "2.31.2"
+regex = "0.2"
+chrono = "0.4"
+subprocess = "0.1.13"
+haikunator = "0.1.2"
+hostname = "^0.1"
+notify = "4.0.0"
+dirs = "1.0.4"
+futures = "0.1.17"
+hyper = "0.12"
+hyper-tls = "0.3.1"
+serde = "1.0.82"
+serde_json = "1.0"
+serde_derive = "1.0.81"
+lazy_static = "1.2.0"
+throw = "0.1.7"
+assert_cli = "0.6.3"
+prettytable-rs = "^0.8"
